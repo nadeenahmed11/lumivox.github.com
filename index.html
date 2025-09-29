@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vox Interior Design</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background: #222;
+    }
+    .navbar a {
+      color: #fff !important;
+    }
+    .hero {
+      height: 100vh;
+      background: url("https://images.unsplash.com/photo-1505691938895-1758d7feb511") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    .footer {
+      background: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .btn-custom {
+      background: #d4a373;
+      color: white;
+    }
+    .btn-custom:hover {
+      background: #b07a4c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Vox Design</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>Designing Spaces that Inspire</h1>
+    <p class="lead">Modern Interior & Architecture Solutions</p>
+    <a href="https://lumivoxstudio.com/" target="_blank" class="btn btn-custom btn-lg mt-3">Visit Our Main Website</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title">About Us</h2>
+    <p class="text-center">At Vox Design, we create timeless interiors that balance elegance, functionality, and innovation. Our team blends creativity with technical expertise to craft spaces that truly reflect your lifestyle.</p>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h4>Interior Design</h4>
+        <p>Elegant interiors tailored to your unique vision.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Architecture</h4>
+        <p>Modern architecture that combines beauty & structure.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>3D Visualization</h4>
+        <p>High-quality 3D renderings that bring your ideas to life.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Our Work</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" class="img-fluid rounded shadow" alt="Project 1">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5" class="img-fluid rounded shadow" alt="Project 2">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://images.unsplash.com/photo-1595526114035-0f1b68a4c701" class="img-fluid rounded shadow" alt="Project 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog -->
+<section id="blog" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Blog</h2>
+    <p class="text-center">Get inspired with tips and insights about modern design, architecture, and lifestyle trends. Visit our main site for more detailed articles.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="w-75 mx-auto">
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-custom w-100">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Vox Design | Built with ♥ on <a href="https://github.com/" class="text-light">GitHub</a></p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
